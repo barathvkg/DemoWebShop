@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-21T21:46:05 IST" name="Surefire suite" finished-at="2025-03-21T21:46:57 IST" duration-ms="51954">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.wipro.runner.TotalrunnerTestCase@3e27aa33]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-03-21T21:46:05 IST" name="Surefire test" finished-at="2025-03-21T21:46:57 IST" duration-ms="51954">
+      <class name="com.wipro.runner.TotalrunnerTestCase">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.wipro.runner.TotalrunnerTestCase@3e27aa33]" started-at="2025-03-21T21:46:05 IST" name="setUpClass" finished-at="2025-03-21T21:46:13 IST" duration-ms="8230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@14e750c5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.wipro.runner.TotalrunnerTestCase@3e27aa33]" started-at="2025-03-21T21:46:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T21:46:25 IST" duration-ms="11934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify major sections on the Home Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home Page Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.wipro.runner.TotalrunnerTestCase@3e27aa33]" started-at="2025-03-21T21:46:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T21:46:30 IST" duration-ms="4688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verifying the product details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product details page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.wipro.runner.TotalrunnerTestCase@3e27aa33]" started-at="2025-03-21T21:46:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T21:46:36 IST" duration-ms="6135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify search bar functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home page search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.wipro.runner.TotalrunnerTestCase@3e27aa33]" started-at="2025-03-21T21:46:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T21:46:42 IST" duration-ms="5913" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify shopping cart operations"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Shopping Cart Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.wipro.runner.TotalrunnerTestCase@3e27aa33]" started-at="2025-03-21T21:46:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-21T21:46:56 IST" duration-ms="13933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["adding items and purchasing"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["adding the product and completing the purchase"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.wipro.runner.TotalrunnerTestCase@3e27aa33]" started-at="2025-03-21T21:46:56 IST" name="tearDownClass" finished-at="2025-03-21T21:46:57 IST" duration-ms="847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.wipro.runner.TotalrunnerTestCase -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
